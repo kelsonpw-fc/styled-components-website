@@ -18,13 +18,9 @@
     "lint": "eslint .",
     "start": "NODE_ENV=production node server.js",
     "test": "jest -c .jest.config.js",
+    "precommit": "lint-staged",
     "prettier": "prettier **/*.js --write",
     "size": "bundlesize"
-  },
-  "husky": {
-    "hooks": {
-      "precommit": "lint-staged"
-    }
   },
   "dependencies": {
     "@mdx-js/mdx": "^0.15.4",
