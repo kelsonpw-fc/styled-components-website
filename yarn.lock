@@ -8949,10 +8949,13 @@ styled-components@^4.3.1:
     stylis-rule-sheet "^0.0.10"
     supports-color "^5.5.0"
 
-styled-icons@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/styled-icons/-/styled-icons-3.0.0.tgz#2140f7bfc08cfeb98981e29fabd4d7c2ac1ed876"
-  integrity sha512-5/UqF5pXh4toa++8JTDJo6f+dp/ZhceFM+r/DdPgR6+QDXeu3LbYtJr9bpImgf/NyA2obTHqM5wKE4LmRYaiDQ==
+styled-icons@^8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/styled-icons/-/styled-icons-8.1.0.tgz#d3b2c2c563a24d4f186190c9f89baff02c394b79"
+  integrity sha512-/DgEIJRcIiyG6hCX8yl+xXucEc4wWhwY3BuT4H+8ZymuGYsvNjGIIOZ7+hXZI3owJK736LNHV9hTg1fG7CDkJg==
+  dependencies:
+    "@emotion/is-prop-valid" "^0.7.3"
+    tslib "^1.9.3"
 
 styled-jsx@3.1.0:
   version "3.1.0"
