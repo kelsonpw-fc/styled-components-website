@@ -223,8 +223,8 @@ const Heart = styled(Favorite)`
 const FooterLink = styled(Link)`
   color: ${grey};
 
-  ${props =>
-    props.monospaced &&
+  ${p =>
+    p.monospaced &&
     css`
       font-family: ${monospace};
     `};
@@ -490,7 +490,7 @@ class Index extends PureComponent {
             {'.'}
             <br />
             {'All code examples use '}
-            <FooterLink monospaced={true} inline href="https://dank.sh">
+            <FooterLink monospaced inline href="https://dank.sh">
               Dank Mono
             </FooterLink>
             {'.'}
