@@ -47,10 +47,10 @@ Returns another `StyledComponent`.
 ```react
 // import styled from 'styled-components'
 
-const Input = styled.input.attrs({
+const Input = styled.input.attrs(({ small }) => ({
   type: 'text',
-  size: props => (props.small ? 5 : undefined),
-})`
+  size: small ? 5 : undefined,
+}))`
   border-radius: 3px;
   border: 1px solid palevioletred;
   display: block;
